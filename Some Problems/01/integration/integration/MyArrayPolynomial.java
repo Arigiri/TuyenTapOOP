@@ -123,7 +123,6 @@ public class MyArrayPolynomial extends MyAbstractPolynomial {
      */
     @Override
     public MyPolynomial derivative() {
-        /* TODO */
         MyArrayPolynomial result = new MyArrayPolynomial();
         for (int i = 1; i < length; i++) {
             result.append(coefficients[i] * i);
